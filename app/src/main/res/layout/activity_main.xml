@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="injectUser"
+        android:text="注入一个自己的对象"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpSecond"
+        android:text="跳转到 SecondActivity"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpThree"
+        android:text="跳转到 ThreeActivity"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpFour"
+        android:text="跳转到 FourActivity"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
